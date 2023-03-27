@@ -1,0 +1,79 @@
+{
+    "common": {
+        "name": "project-name-1",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Project Name 1",
+        "titleLang": {
+            "en": "Project Name 1",
+            "de": "Projektname 1",
+            "ru": "Название проекта 1",
+            "pt": "Nome do Projeto 1",
+            "nl": "Projectnaam 1",
+            "fr": "Nom du projet 1",
+            "it": "Nome del progetto 1",
+            "es": "Nombre del proyecto 1",
+            "pl": "Nazwa projektu 1",
+            "zh-cn": "项目名称 1"
+        },
+        "desc": {
+            "en": "This is a short description!",
+            "de": "Dies ist eine kurze Beschreibung!",
+            "ru": "Это краткое описание!",
+            "pt": "Esta é uma breve descrição!",
+            "nl": "Dit is een korte beschrijving!",
+            "fr": "Ceci est une courte description!",
+            "it": "Questa è una breve descrizione!",
+            "es": "¡Esta es una breve descripción!",
+            "pl": "To jest krótki opis!",
+            "zh-cn": "这是一个简短的描述！"
+        },
+        "authors": [
+            "Andreas Hödl <hoedi1030@gmail.com>"
+        ],
+        "keywords": [
+            "keyword1",
+            "keyword2",
+            "keyword3"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "project-name-1.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Hoedi1030/ioBroker.project-name-1/main/admin/project-name-1.png",
+        "readme": "https://github.com/Hoedi1030/ioBroker.project-name-1/blob/main/README.md",
+        "loglevel": "info",
+        "restartAdapters": [
+            "vis"
+        ],
+        "onlyWWW": true,
+        "noConfig": true,
+        "singleton": true,
+        "type": "visualization-widgets",
+        "mode": "once",
+        "dependencies": [
+            "vis"
+        ],
+        "globalDependencies": []
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
